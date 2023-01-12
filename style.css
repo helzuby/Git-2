@@ -2,6 +2,7 @@
 	padding: 0;
 	font-family: Arial, sans-serif;
 }
+
 .header-content-inner{
 	position: relative;
     width: 100%;
@@ -10,25 +11,25 @@
 }
 .first-text{
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	text-align: center;
 	font-size: 60px;
-	font-weight: 300;
+	font-weight: 600%;
 	transform: translate(-50%, -50%)
 }
 .second-text{
 	position: absolute;
-	top: 70%;
+	top:55%;
 	left: 50%;
 	font-size: 20px;
-	font-weight: 300;
+	font-weight: 300%;
 	text-align: center;
 	transform: translate(-50%, -50%)
 }
 .btn-lg{
 	position: absolute;
-	top:85%;
+	top:65%;
 	left: 50%;
 	font-size: 20px;
 	color: white;
@@ -58,27 +59,32 @@
 }
 .section-content{
 	 padding: 3% 0 5%;
+	 color: black;
 }
 .content-2{
 	background-color: black;
 	color: white;
 	 padding: 3% 0 5%;
 }
+
 .col-md-4{
 	margin-left: 0;
 	margin-right: 0;
 	padding-right: 0;
 	padding-left:  0;
 }
-.promo-item{
-	position: relative;
-	text-align: center;
-	color: white;
-}
+
 .simple{
-	font-size: 40px;
-	position: absolute;
-	
+ color: white;
+  font-size: 40px;
+  position: relative;
+  top: 50%;
+  text-align: center;
+  line-height: 0%;
+}
+
+.bi-pin-angle-fill{
+	color: yellowgreen;
 }
 
 .content-3{
@@ -86,9 +92,7 @@
 	font-size: 15px;
 	 padding: 3% 0 5%;
 }
-.bi-pin-angle-fill{
-	color: yellowgreen;
-}
+
 
 .footer{
 	background-color: yellowgreen;
@@ -99,31 +103,4 @@
 .small-print{
 	 padding: 3% 0 5%;
 }
-@media(min-width: 768px){
-
-.header{
-	min-height:100%;
 }
-header-content-inner{
-	 margin-right: auto;
-        margin-left: auto;
-        max-width: 1000px;
-}
-.first-text{
-	position: absolute;
-	top: 40%;
-	left: 50%;
-}
-.second-text{
-	position: absolute;
-	top: 75%;
-	left: 50%;
-}
-.btn-lg{
-	position: absolute;
-	top: 85%;
-	left: 50%;
-}
-}
-
-
